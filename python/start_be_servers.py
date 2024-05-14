@@ -8,7 +8,7 @@ from threading import Thread
 HOST = 'localhost'
 START_PORT = 8001
 
-SERVER_SETUP = "./python/config.json"
+SERVER_SETUP = "./config.json"
 servers = []
 
 def get_instances_config():
